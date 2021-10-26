@@ -1,0 +1,141 @@
+h1, p {
+  font-family: Lato;
+}
+
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+    background: #3f0249;
+    font-size: 21px;
+}
+
+.font 
+{
+    font-family:-webkit-pictograph;
+}
+
+.fa-address-book 
+{
+    font-size: 10em;
+}
+
+.R
+{
+    margin-top: 25px;
+}
+
+
+.form
+{
+    margin-top: 50px;
+}
+
+.inp1 input, .inp2 input, .inp3 input 
+{
+    padding: 5px;
+    margin: 20px;
+    border: 1px #000000 solid;
+    border-radius: 3px; 
+    font-family: -webkit-pictograph;
+}
+
+input
+{
+    width: 200px;
+    height: 15px;
+}
+
+.C1
+{
+    width: 570px;
+    background: #ffffff;
+    margin: 2px;
+    padding: 5px;
+    height: 400px;
+    text-align: center;
+    border-radius: 9px;
+    margin-left: 43px;
+    margin-top: 127px;
+       
+}
+
+.C2
+{
+    position: relative;
+    bottom: 312px;
+    left: 624px;
+    width: 666px;
+    background: #ffffff;
+    margin: 2px;
+    padding: 5px;
+    height: 400px;
+    text-align: center;
+    border-radius: 9px;
+    margin-top: -99px;
+    
+}
+
+.contacts 
+{
+    width: 200px;
+    height: 25px;
+}
+
+.contacts:hover
+{
+    border: 1px #000000 solid;
+}
+
+.info-contact
+{
+    margin-top: 35px;
+    border-radius: 5px;
+    padding: 10px;
+    overflow: scroll;
+    overflow: auto;
+    height: 250px;
+    overflow-x:hidden;
+    font-size: 12px;
+}
+td,
+th 
+{
+    border: 1px solid #000000;
+    padding: 8px;
+    font-size: 12px;
+}
+thead
+{
+    background: #000000;
+    color: #ffffff;
+}
+
+tbody tr td
+{
+    text-align: start;
+    font-size: 11.6px;
+}
+
+.BTN-Enviar 
+{
+    margin-top: 15px;
+    border: 1px #409EFF solid;
+    border-radius: 3px;
+    width: 400px;
+    height: 30px;
+    color: #ffffff;
+    background: #000000;
+    font-size: 21px;
+}
+
+.BTN-Enviar:hover 
+{
+    cursor: pointer;
+    border: 1px rgb(160, 207, 255) solid;
+    background: rgb(160, 207, 255);
+} 

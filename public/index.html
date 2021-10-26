@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/index.css">
+        <title>
+            Agenda React
+        </title>
+    </head> 
+    
+    <body>
+        <div id="root"></div>
+        <div class="container">
+            <div class="R1">
+                <div class="C1">
+                    <h2 class="font">Añadir Contacto</h2>
+                    <form action="#" id="form">
+                        <div class="form">
+                            <div class="inp1 font">
+                                <label for="">Nombre:</label>
+                                <input type="text" id="name" class="name">
+                            </div>
+                            <div class="inp2 font">
+                                <label for="">Apellido:</label>
+                                <input type="text" id="lastName" class="lastName">
+                            </div>
+                            <div class="inp3 font">
+                                <label for="">Telefono:</label>
+                                <input type="text" id="phone" class="phone">
+                            </div>
+                        </div>
+                        <div class="inp3 font">
+                            <button class="BTN-Enviar">
+                                Enviar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="R2">
+                <div class="C2">
+                    <h2 class="font">Contactos</h2>
+                    <div class="info-contact font">
+                        <table class=" font" id="table" >
+                            <thead>
+                                <tr>
+                                    <th>
+                                        Nombre
+                                    </th>
+                                    <th>
+                                        Apellido
+                                    </th>
+                                    <th>
+                                        Telefono
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody id="data" >
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+<div id="root"></div>
