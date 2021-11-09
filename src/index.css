@@ -1,0 +1,18 @@
+.BTN-Enviar 
+{
+    margin-top: 15px;
+    border: 1px #409EFF solid;
+    border-radius: 3px;
+    width: 400px;
+    height: 30px;
+    color: #91097f;
+    background: #fcfcfc;
+    font-size: 21px;
+}
+
+.BTN-Enviar:hover 
+{
+    cursor: pointer;
+    border: 1px rgb(160, 207, 255) solid;
+    background: rgb(160, 207, 255);
+} 
